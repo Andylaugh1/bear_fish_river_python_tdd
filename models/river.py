@@ -16,3 +16,6 @@ class River(object):
     def remove_fish(self, fish):
         self.fish.remove(fish)
 
+    def remove_all_fish(self):
+        self.fish.clear()
+
